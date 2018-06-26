@@ -119,7 +119,7 @@ done
 
 ##sending Email
 
-mailx -s "Top 10 MongoDb Queries $log"  narges.gh@mtnirancell.ir, donald.b@mtnirancell.ir , mehdi.pourh@mtnirancell.ir  < /tmp/top_10_mongodb_queries
+mailx -s "Top 10 MongoDb Queries $log"  ${YOUR_EMAIL}  < /tmp/top_10_mongodb_queries
 
 ##sending Email
 
